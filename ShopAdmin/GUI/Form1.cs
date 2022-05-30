@@ -18,10 +18,11 @@ namespace ShopAdmin
         {
             model = new Model_Db_Other();
             InitializeComponent();
+            Show_Goods();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        public void Show_Goods()
         {
+            panel2.Controls.Clear();
             int x = 10, y = 10;
             foreach (var item in model.Mobiles)
             {

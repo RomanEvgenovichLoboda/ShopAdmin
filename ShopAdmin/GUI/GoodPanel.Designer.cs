@@ -55,7 +55,7 @@ namespace ShopAdmin.GUI
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(360, 160);
+            this.label1.Location = new System.Drawing.Point(342, 223);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 25);
             this.label1.TabIndex = 17;
@@ -85,7 +85,7 @@ namespace ShopAdmin.GUI
             this.price_label.AutoSize = true;
             this.price_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.price_label.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.price_label.Location = new System.Drawing.Point(175, 211);
+            this.price_label.Location = new System.Drawing.Point(172, 220);
             this.price_label.Name = "price_label";
             this.price_label.Size = new System.Drawing.Size(61, 25);
             this.price_label.TabIndex = 14;
@@ -148,9 +148,9 @@ namespace ShopAdmin.GUI
             // 
             // textBoxPrice
             // 
-            this.textBoxPrice.Location = new System.Drawing.Point(255, 216);
+            this.textBoxPrice.Location = new System.Drawing.Point(254, 223);
             this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.Size = new System.Drawing.Size(100, 22);
+            this.textBoxPrice.Size = new System.Drawing.Size(79, 22);
             this.textBoxPrice.TabIndex = 29;
             // 
             // textBoxProessor
@@ -183,6 +183,8 @@ namespace ShopAdmin.GUI
             // 
             // buttonRemove
             // 
+            this.buttonRemove.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRemove.ForeColor = System.Drawing.Color.Crimson;
             this.buttonRemove.Location = new System.Drawing.Point(8, 270);
@@ -190,7 +192,8 @@ namespace ShopAdmin.GUI
             this.buttonRemove.Size = new System.Drawing.Size(173, 56);
             this.buttonRemove.TabIndex = 30;
             this.buttonRemove.Text = "Remove";
-            this.buttonRemove.UseVisualStyleBackColor = true;
+            this.buttonRemove.UseVisualStyleBackColor = false;
+            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click);
             // 
             // pictureBox1
             // 
@@ -200,7 +203,7 @@ namespace ShopAdmin.GUI
             this.pictureBox1.Image = global::ShopAdmin.Properties.Resources._3;
             this.pictureBox1.Location = new System.Drawing.Point(8, 16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(154, 233);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 229);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -209,7 +212,8 @@ namespace ShopAdmin.GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Olive;
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.buttonRemove);
             this.Controls.Add(this.textBoxPrice);
             this.Controls.Add(this.textBoxProessor);
@@ -227,7 +231,7 @@ namespace ShopAdmin.GUI
             this.Controls.Add(this.company_label);
             this.Controls.Add(this.name_label);
             this.Name = "GoodPanel";
-            this.Size = new System.Drawing.Size(400, 350);
+            this.Size = new System.Drawing.Size(396, 346);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
