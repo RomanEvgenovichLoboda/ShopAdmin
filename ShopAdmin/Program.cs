@@ -6,8 +6,10 @@ using System.Windows.Forms;
 
 namespace ShopAdmin
 {
+   
     static class Program
     {
+        static public Form1 mainForm;
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +18,8 @@ namespace ShopAdmin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            mainForm = new Form1();
+            Application.Run(mainForm);
         }
     }
 }
