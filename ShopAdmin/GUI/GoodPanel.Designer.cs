@@ -55,7 +55,7 @@ namespace ShopAdmin.GUI
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(360, 210);
+            this.label1.Location = new System.Drawing.Point(360, 160);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 25);
             this.label1.TabIndex = 17;
@@ -66,7 +66,7 @@ namespace ShopAdmin.GUI
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.button1.Location = new System.Drawing.Point(231, 303);
+            this.button1.Location = new System.Drawing.Point(212, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 56);
             this.button1.TabIndex = 16;
@@ -185,7 +185,7 @@ namespace ShopAdmin.GUI
             // 
             this.buttonRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRemove.ForeColor = System.Drawing.Color.Crimson;
-            this.buttonRemove.Location = new System.Drawing.Point(25, 303);
+            this.buttonRemove.Location = new System.Drawing.Point(8, 270);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(173, 56);
             this.buttonRemove.TabIndex = 30;
@@ -200,7 +200,7 @@ namespace ShopAdmin.GUI
             this.pictureBox1.Image = global::ShopAdmin.Properties.Resources._3;
             this.pictureBox1.Location = new System.Drawing.Point(8, 16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(154, 264);
+            this.pictureBox1.Size = new System.Drawing.Size(154, 233);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -227,7 +227,7 @@ namespace ShopAdmin.GUI
             this.Controls.Add(this.company_label);
             this.Controls.Add(this.name_label);
             this.Name = "GoodPanel";
-            this.Size = new System.Drawing.Size(400, 400);
+            this.Size = new System.Drawing.Size(400, 350);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

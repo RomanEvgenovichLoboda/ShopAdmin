@@ -47,7 +47,7 @@ namespace ShopAdmin
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(189, 529);
+            this.panel1.Size = new System.Drawing.Size(279, 529);
             this.panel1.TabIndex = 0;
             // 
             // button2
@@ -75,15 +75,15 @@ namespace ShopAdmin
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel2.Location = new System.Drawing.Point(208, 75);
+            this.panel2.Location = new System.Drawing.Point(321, 75);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1062, 466);
+            this.panel2.Size = new System.Drawing.Size(949, 466);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ShopAdmin.Properties.Resources.search_48px;
-            this.pictureBox1.Location = new System.Drawing.Point(208, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(297, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(57, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

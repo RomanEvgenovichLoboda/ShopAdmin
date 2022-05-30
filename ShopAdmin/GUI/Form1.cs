@@ -22,15 +22,15 @@ namespace ShopAdmin
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int x = 5, y = 5;
+            int x = 10, y = 10;
             foreach (var item in model.Mobiles)
             {
                 panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
-                x += 405;
-                if (x / 405 >= 3)
+                x += 320;
+                if (x / 320 >= 4)
                 {
-                    y += 410;
-                    x = 5;
+                    y += 300;
+                    x = 10;
                 }
             }
         }
