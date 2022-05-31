@@ -33,9 +33,9 @@ namespace ShopAdmin
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBoxSearch = new System.Windows.Forms.TextBox();
+            this.buttonSearch = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -80,15 +80,22 @@ namespace ShopAdmin
             this.panel2.Size = new System.Drawing.Size(949, 466);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox1
+            // textBoxSearch
             // 
-            this.pictureBox1.Image = global::ShopAdmin.Properties.Resources.search_48px;
-            this.pictureBox1.Location = new System.Drawing.Point(297, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(57, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.textBoxSearch.Location = new System.Drawing.Point(368, 37);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(123, 22);
+            this.textBoxSearch.TabIndex = 3;
+            // 
+            // buttonSearch
+            // 
+            this.buttonSearch.Image = global::ShopAdmin.Properties.Resources.search_48px;
+            this.buttonSearch.Location = new System.Drawing.Point(318, 27);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(44, 42);
+            this.buttonSearch.TabIndex = 4;
+            this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // Form1
             // 
@@ -97,14 +104,15 @@ namespace ShopAdmin
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(1282, 553);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonSearch);
+            this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -114,7 +122,8 @@ namespace ShopAdmin
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBoxSearch;
+        private System.Windows.Forms.Button buttonSearch;
     }
 }
 

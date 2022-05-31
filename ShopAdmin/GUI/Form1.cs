@@ -20,7 +20,7 @@ namespace ShopAdmin
             InitializeComponent();
             Show_Goods();
         }
-        public void Show_Goods()
+        public void Show_Goods(string str = "ALL")
         {
             using (Model_Db_Other model_Db = new Model_Db_Other())
             {
@@ -28,8 +28,16 @@ namespace ShopAdmin
                 int x = 10, y = 10;
                 foreach (var item in model_Db.Mobiles)
                 {
-                    panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
-                    x += 320;
+                    if(str == "ALL")
+                    { 
+                        panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
+                        x += 320;
+                    }
+                    else if (str.ToLower() == item.Company.ToLower() || str.ToLower() == item.Name.ToLower()) 
+                    { 
+                        panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
+                        x += 320;
+                    }
                     if (x / 320 >= 4)
                     {
                         y += 300;
@@ -38,5 +46,7 @@ namespace ShopAdmin
                 }
             }
         }
+
+        private void buttonSearch_Click(object sender, EventArgs e) { if(textBoxSearch.Text != "") { Show_Goods(textBoxSearch.Text); } }
     }
 }
