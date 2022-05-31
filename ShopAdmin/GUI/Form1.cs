@@ -13,25 +13,28 @@ namespace ShopAdmin
 {
     public partial class Form1 : Form
     {
-        Model_Db_Other model;
+       // Model_Db_Other model;
         public Form1()
         {
-            model = new Model_Db_Other();
+           // model = new Model_Db_Other();
             InitializeComponent();
             Show_Goods();
         }
         public void Show_Goods()
         {
-            panel2.Controls.Clear();
-            int x = 10, y = 10;
-            foreach (var item in model.Mobiles)
+            using (Model_Db_Other model_Db = new Model_Db_Other())
             {
-                panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
-                x += 320;
-                if (x / 320 >= 4)
+                panel2.Controls.Clear();
+                int x = 10, y = 10;
+                foreach (var item in model_Db.Mobiles)
                 {
-                    y += 300;
-                    x = 10;
+                    panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
+                    x += 320;
+                    if (x / 320 >= 4)
+                    {
+                        y += 300;
+                        x = 10;
+                    }
                 }
             }
         }

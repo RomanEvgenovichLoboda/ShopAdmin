@@ -114,12 +114,12 @@
     <Folder Include="Classes\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\1.png" />
-    <Content Include="Resources\2.png" />
-    <Content Include="Resources\3.png" />
-    <Content Include="Resources\4.png" />
-    <Content Include="Resources\5.png" />
-    <Content Include="Resources\6.png" />
+    <Content Include="Resources\iPhone 13Pro.png" />
+    <Content Include="Resources\Pixel 6Pro.png" />
+    <Content Include="Resources\iPhone XR.png" />
+    <Content Include="Resources\Plus 9RT.png" />
+    <Content Include="Resources\Galaxy S21.png" />
+    <Content Include="Resources\Galaxy M52.png" />
     <Content Include="Resources\search_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
