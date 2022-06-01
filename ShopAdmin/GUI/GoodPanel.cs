@@ -14,7 +14,6 @@ namespace ShopAdmin.GUI
     {
         int id;
         Dictionary<string, Image> imageDict;
-        //Image[] images;
         public GoodPanel(int _id, string _name, string _company, int _flash, int _SSD, int _processor, double _price)
         {
 
@@ -26,13 +25,10 @@ namespace ShopAdmin.GUI
                 ["iphone xr"] = new Bitmap(Properties.Resources.iPhone_XR),
                 ["plus 9rt"] = new Bitmap(Properties.Resources.Plus_9RT),
                 ["galaxy s21"] = new Bitmap(Properties.Resources.Galaxy_S21),
-                ["galaxy m52"] = new Bitmap(Properties.Resources.Galaxy_M52),
+                ["galaxy m52"] = new Bitmap(Properties.Resources.Galaxy_M52)
               
 
             };
-            //images = new Image[] { new Bitmap(Properties.Resources.iPhone_13Pro), new Bitmap(Properties.Resources.Pixel_6Pro), new Bitmap(Properties.Resources.iPhone_XR),
-            //    new Bitmap(Properties.Resources.Plus_9RT), new Bitmap(Properties.Resources.Galaxy_S21), new Bitmap(Properties.Resources.Galaxy_M52), new Bitmap(Properties.Resources.Galaxy_M52),
-            //    new Bitmap(Properties.Resources.Galaxy_M52), new Bitmap(Properties.Resources.Galaxy_M52) };
             id = _id;
             textBoxName.Text = _name;
             textBoxCompany.Text = _company;
@@ -40,16 +36,11 @@ namespace ShopAdmin.GUI
             textBoxSSD.Text = _SSD.ToString();
             textBoxProessor.Text = _processor.ToString();
             textBoxPrice.Text = _price.ToString();
-            //pictureBox1.Image = images[_id - 1];
-            pictureBox1.Image = imageDict[_name.ToLower()];
-        }
-        
+            try { pictureBox1.Image = imageDict[_name.ToLower()]; }
+            catch { pictureBox1.Image = new Bitmap(Properties.Resources.test); }
+        } 
         private void buttonRemove_Click(object sender, EventArgs e)
         {
-            //Model_Db_Other modelDB = new Model_Db_Other();
-            //modelDB.Mobiles.Remove(modelDB.Mobiles.Find(id));
-            //modelDB.SaveChanges();
-            //Program.mainForm.Show_Goods();
             using(Model_Db_Other model_Db = new Model_Db_Other())
             {
                 model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
@@ -72,9 +63,7 @@ namespace ShopAdmin.GUI
                     Processor = Convert.ToInt32(textBoxProessor.Text),
                     Price = Convert.ToDouble(textBoxPrice.Text)
                 };
-                
                 model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
-                model_Db.SaveChanges();
                 model_Db.Mobiles.Add(mobile);
                 model_Db.SaveChanges();
             }

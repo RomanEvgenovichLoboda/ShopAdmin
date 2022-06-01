@@ -121,6 +121,7 @@
     <Content Include="Resources\Galaxy S21.png" />
     <Content Include="Resources\Galaxy M52.png" />
     <Content Include="Resources\search_48px.png" />
+    <Content Include="Resources\test.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
