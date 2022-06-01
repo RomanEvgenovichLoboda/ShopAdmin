@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ShopAdmin.GUI;
+using System;
 using System.Windows.Forms;
 
 namespace ShopAdmin
@@ -9,7 +7,7 @@ namespace ShopAdmin
    
     static class Program
     {
-        static public Form1 mainForm;
+        static public MainForm mainForm;
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -18,7 +16,7 @@ namespace ShopAdmin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            mainForm = new Form1();
+            mainForm = new MainForm();
             Application.Run(mainForm);
         }
     }

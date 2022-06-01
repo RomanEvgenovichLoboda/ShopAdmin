@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ShopAdmin.GUI
@@ -48,7 +43,6 @@ namespace ShopAdmin.GUI
             }
             Program.mainForm.Show_Goods();
         }
-
         private void buttonEdit_Click(object sender, EventArgs e)
         {
             using (Model_Db_Other model_Db = new Model_Db_Other())

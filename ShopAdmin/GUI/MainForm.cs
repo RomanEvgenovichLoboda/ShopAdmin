@@ -1,19 +1,14 @@
 ﻿using ShopAdmin.GUI;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ShopAdmin
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public bool sign;
+        public MainForm()
         {
             InitializeComponent();
             Show_Goods();
@@ -45,7 +40,6 @@ namespace ShopAdmin
             }
         }
         private void buttonSearch_Click(object sender, EventArgs e) { Show_Goods(textBoxSearch.Text); }
-
         private void buttonAddNew_Click(object sender, EventArgs e)
         {
             try
@@ -72,10 +66,16 @@ namespace ShopAdmin
                         Program.mainForm.Show_Goods();
                     }
                 }
-                else { MessageBox.Show("Заполните Все Поля Bвода", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+                else { MessageBox.Show("Заполните Все Поля Bвода", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
             }
-            catch { MessageBox.Show("Не Правильный Ввод =(", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Error); }
-
+            catch { MessageBox.Show("Не Правильный Ввод =(", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
+        }
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            RegForm regForm = new RegForm();
+            regForm.ShowDialog();
+            if (!sign) { this.Close(); }
+            else { MessageBox.Show("Autorisated =)"); }
         }
     }
 }

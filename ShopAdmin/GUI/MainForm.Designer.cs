@@ -1,7 +1,7 @@
 ﻿
 namespace ShopAdmin
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -30,23 +30,23 @@ namespace ShopAdmin
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBoxAddPrice = new System.Windows.Forms.TextBox();
+            this.textBoxAddProcessor = new System.Windows.Forms.TextBox();
+            this.textBoxAddSSD = new System.Windows.Forms.TextBox();
+            this.textBoxAddFlash = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxAddCompany = new System.Windows.Forms.TextBox();
+            this.textBoxAddName = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.buttonAddNew = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.textBoxAddName = new System.Windows.Forms.TextBox();
-            this.textBoxAddCompany = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.buttonSearch = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxAddFlash = new System.Windows.Forms.TextBox();
-            this.textBoxAddSSD = new System.Windows.Forms.TextBox();
-            this.textBoxAddProcessor = new System.Windows.Forms.TextBox();
-            this.textBoxAddPrice = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +73,102 @@ namespace ShopAdmin
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(279, 529);
             this.panel1.TabIndex = 0;
+            // 
+            // textBoxAddPrice
+            // 
+            this.textBoxAddPrice.Location = new System.Drawing.Point(12, 470);
+            this.textBoxAddPrice.Name = "textBoxAddPrice";
+            this.textBoxAddPrice.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddPrice.TabIndex = 13;
+            // 
+            // textBoxAddProcessor
+            // 
+            this.textBoxAddProcessor.Location = new System.Drawing.Point(12, 406);
+            this.textBoxAddProcessor.Name = "textBoxAddProcessor";
+            this.textBoxAddProcessor.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddProcessor.TabIndex = 12;
+            // 
+            // textBoxAddSSD
+            // 
+            this.textBoxAddSSD.Location = new System.Drawing.Point(12, 344);
+            this.textBoxAddSSD.Name = "textBoxAddSSD";
+            this.textBoxAddSSD.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddSSD.TabIndex = 11;
+            // 
+            // textBoxAddFlash
+            // 
+            this.textBoxAddFlash.Location = new System.Drawing.Point(12, 288);
+            this.textBoxAddFlash.Name = "textBoxAddFlash";
+            this.textBoxAddFlash.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddFlash.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 441);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 17);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Price (₴)";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(4, 386);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(123, 17);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Processor (Cores)";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(4, 324);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "SSD (Gb)";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 268);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Flash (Gb)";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(4, 219);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Company";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(4, 173);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Name";
+            // 
+            // textBoxAddCompany
+            // 
+            this.textBoxAddCompany.Location = new System.Drawing.Point(12, 243);
+            this.textBoxAddCompany.Name = "textBoxAddCompany";
+            this.textBoxAddCompany.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddCompany.TabIndex = 3;
+            // 
+            // textBoxAddName
+            // 
+            this.textBoxAddName.Location = new System.Drawing.Point(12, 194);
+            this.textBoxAddName.Name = "textBoxAddName";
+            this.textBoxAddName.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAddName.TabIndex = 2;
             // 
             // button2
             // 
@@ -112,38 +208,6 @@ namespace ShopAdmin
             this.textBoxSearch.Size = new System.Drawing.Size(123, 22);
             this.textBoxSearch.TabIndex = 3;
             // 
-            // textBoxAddName
-            // 
-            this.textBoxAddName.Location = new System.Drawing.Point(12, 194);
-            this.textBoxAddName.Name = "textBoxAddName";
-            this.textBoxAddName.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddName.TabIndex = 2;
-            // 
-            // textBoxAddCompany
-            // 
-            this.textBoxAddCompany.Location = new System.Drawing.Point(12, 243);
-            this.textBoxAddCompany.Name = "textBoxAddCompany";
-            this.textBoxAddCompany.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddCompany.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Name";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 219);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Company";
-            // 
             // buttonSearch
             // 
             this.buttonSearch.BackgroundImage = global::ShopAdmin.Properties.Resources.search_48px;
@@ -155,71 +219,7 @@ namespace ShopAdmin
             this.buttonSearch.UseVisualStyleBackColor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 268);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Flash (Gb)";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 324);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 17);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "SSD (Gb)";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(4, 386);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 17);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Processor (Cores)";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 441);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 17);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Price (₴)";
-            // 
-            // textBoxAddFlash
-            // 
-            this.textBoxAddFlash.Location = new System.Drawing.Point(12, 288);
-            this.textBoxAddFlash.Name = "textBoxAddFlash";
-            this.textBoxAddFlash.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddFlash.TabIndex = 10;
-            // 
-            // textBoxAddSSD
-            // 
-            this.textBoxAddSSD.Location = new System.Drawing.Point(12, 344);
-            this.textBoxAddSSD.Name = "textBoxAddSSD";
-            this.textBoxAddSSD.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddSSD.TabIndex = 11;
-            // 
-            // textBoxAddProcessor
-            // 
-            this.textBoxAddProcessor.Location = new System.Drawing.Point(12, 406);
-            this.textBoxAddProcessor.Name = "textBoxAddProcessor";
-            this.textBoxAddProcessor.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddProcessor.TabIndex = 12;
-            // 
-            // textBoxAddPrice
-            // 
-            this.textBoxAddPrice.Location = new System.Drawing.Point(12, 470);
-            this.textBoxAddPrice.Name = "textBoxAddPrice";
-            this.textBoxAddPrice.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddPrice.TabIndex = 13;
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -230,8 +230,9 @@ namespace ShopAdmin
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
