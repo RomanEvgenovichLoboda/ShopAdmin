@@ -124,13 +124,22 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\a40_black.jpg" />
     <Content Include="Resources\admin_settings_male_500px.png" />
+    <Content Include="Resources\f3.png" />
+    <Content Include="Resources\Galaxy A52.png" />
+    <Content Include="Resources\gt-s7562zkaser_001_front_black.jpg" />
     <Content Include="Resources\iPhone 13Pro.png" />
+    <Content Include="Resources\iPhone12pro_graphite.png" />
+    <Content Include="Resources\n-95.jpg" />
+    <Content Include="Resources\note11.png" />
     <Content Include="Resources\Pixel 6Pro.png" />
     <Content Include="Resources\iPhone XR.png" />
     <Content Include="Resources\Plus 9RT.png" />
     <Content Include="Resources\Galaxy S21.png" />
     <Content Include="Resources\Galaxy M52.png" />
+    <Content Include="Resources\Redmi Note 10.png" />
+    <Content Include="Resources\redmi_note4.jpg" />
     <Content Include="Resources\search_48px.png" />
     <Content Include="Resources\test.png" />
   </ItemGroup>

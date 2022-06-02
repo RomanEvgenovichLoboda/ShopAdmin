@@ -31,34 +31,34 @@ namespace ShopAdmin
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButtonPrice = new System.Windows.Forms.RadioButton();
+            this.buttonSort = new System.Windows.Forms.Button();
+            this.radioButtonCompany = new System.Windows.Forms.RadioButton();
+            this.radioButtonProcessor = new System.Windows.Forms.RadioButton();
+            this.radioButtonSSD = new System.Windows.Forms.RadioButton();
+            this.radioButtonFlash = new System.Windows.Forms.RadioButton();
+            this.radioButtonName = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxAddPrice = new System.Windows.Forms.TextBox();
-            this.textBoxAddProcessor = new System.Windows.Forms.TextBox();
-            this.textBoxAddSSD = new System.Windows.Forms.TextBox();
+            this.buttonAddNew = new System.Windows.Forms.Button();
             this.textBoxAddFlash = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBoxAddProcessor = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBoxAddSSD = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxAddName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxAddCompany = new System.Windows.Forms.TextBox();
-            this.textBoxAddName = new System.Windows.Forms.TextBox();
-            this.buttonSort = new System.Windows.Forms.Button();
-            this.buttonAddNew = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButtonName = new System.Windows.Forms.RadioButton();
-            this.radioButtonCompany = new System.Windows.Forms.RadioButton();
-            this.radioButtonFlash = new System.Windows.Forms.RadioButton();
-            this.radioButtonSSD = new System.Windows.Forms.RadioButton();
-            this.radioButtonProcessor = new System.Windows.Forms.RadioButton();
-            this.radioButtonPrice = new System.Windows.Forms.RadioButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,101 +76,31 @@ namespace ShopAdmin
             this.panel1.Size = new System.Drawing.Size(279, 662);
             this.panel1.TabIndex = 0;
             // 
-            // textBoxAddPrice
+            // groupBox2
             // 
-            this.textBoxAddPrice.Location = new System.Drawing.Point(24, 274);
-            this.textBoxAddPrice.Name = "textBoxAddPrice";
-            this.textBoxAddPrice.Size = new System.Drawing.Size(146, 22);
-            this.textBoxAddPrice.TabIndex = 13;
+            this.groupBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.groupBox2.Controls.Add(this.radioButtonPrice);
+            this.groupBox2.Controls.Add(this.buttonSort);
+            this.groupBox2.Controls.Add(this.radioButtonCompany);
+            this.groupBox2.Controls.Add(this.radioButtonProcessor);
+            this.groupBox2.Controls.Add(this.radioButtonSSD);
+            this.groupBox2.Controls.Add(this.radioButtonFlash);
+            this.groupBox2.Controls.Add(this.radioButtonName);
+            this.groupBox2.Location = new System.Drawing.Point(13, 49);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(245, 199);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
             // 
-            // textBoxAddProcessor
+            // radioButtonPrice
             // 
-            this.textBoxAddProcessor.Location = new System.Drawing.Point(22, 229);
-            this.textBoxAddProcessor.Name = "textBoxAddProcessor";
-            this.textBoxAddProcessor.Size = new System.Drawing.Size(148, 22);
-            this.textBoxAddProcessor.TabIndex = 12;
-            // 
-            // textBoxAddSSD
-            // 
-            this.textBoxAddSSD.Location = new System.Drawing.Point(22, 184);
-            this.textBoxAddSSD.Name = "textBoxAddSSD";
-            this.textBoxAddSSD.Size = new System.Drawing.Size(148, 22);
-            this.textBoxAddSSD.TabIndex = 11;
-            // 
-            // textBoxAddFlash
-            // 
-            this.textBoxAddFlash.Location = new System.Drawing.Point(22, 139);
-            this.textBoxAddFlash.Name = "textBoxAddFlash";
-            this.textBoxAddFlash.Size = new System.Drawing.Size(148, 22);
-            this.textBoxAddFlash.TabIndex = 10;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 254);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 17);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Price (₴)";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 209);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 17);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Processor (Cores)";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 164);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 17);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "SSD (Gb)";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 119);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Flash (Gb)";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Company";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Name";
-            // 
-            // textBoxAddCompany
-            // 
-            this.textBoxAddCompany.Location = new System.Drawing.Point(22, 94);
-            this.textBoxAddCompany.Name = "textBoxAddCompany";
-            this.textBoxAddCompany.Size = new System.Drawing.Size(148, 22);
-            this.textBoxAddCompany.TabIndex = 3;
-            // 
-            // textBoxAddName
-            // 
-            this.textBoxAddName.Location = new System.Drawing.Point(22, 45);
-            this.textBoxAddName.Name = "textBoxAddName";
-            this.textBoxAddName.Size = new System.Drawing.Size(148, 22);
-            this.textBoxAddName.TabIndex = 2;
+            this.radioButtonPrice.AutoSize = true;
+            this.radioButtonPrice.Location = new System.Drawing.Point(6, 156);
+            this.radioButtonPrice.Name = "radioButtonPrice";
+            this.radioButtonPrice.Size = new System.Drawing.Size(61, 21);
+            this.radioButtonPrice.TabIndex = 6;
+            this.radioButtonPrice.Text = "Price";
+            this.radioButtonPrice.UseVisualStyleBackColor = true;
             // 
             // buttonSort
             // 
@@ -185,38 +115,57 @@ namespace ShopAdmin
             this.buttonSort.UseVisualStyleBackColor = false;
             this.buttonSort.Click += new System.EventHandler(this.buttonSort_Click);
             // 
-            // buttonAddNew
+            // radioButtonCompany
             // 
-            this.buttonAddNew.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonAddNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAddNew.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buttonAddNew.Location = new System.Drawing.Point(126, 308);
-            this.buttonAddNew.Name = "buttonAddNew";
-            this.buttonAddNew.Size = new System.Drawing.Size(113, 42);
-            this.buttonAddNew.TabIndex = 0;
-            this.buttonAddNew.Text = "ADD New";
-            this.buttonAddNew.UseVisualStyleBackColor = false;
-            this.buttonAddNew.Click += new System.EventHandler(this.buttonAddNew_Click);
+            this.radioButtonCompany.AutoSize = true;
+            this.radioButtonCompany.Location = new System.Drawing.Point(6, 48);
+            this.radioButtonCompany.Name = "radioButtonCompany";
+            this.radioButtonCompany.Size = new System.Drawing.Size(88, 21);
+            this.radioButtonCompany.TabIndex = 3;
+            this.radioButtonCompany.Text = "Company";
+            this.radioButtonCompany.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // radioButtonProcessor
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(321, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(949, 662);
-            this.panel2.TabIndex = 1;
+            this.radioButtonProcessor.AutoSize = true;
+            this.radioButtonProcessor.Location = new System.Drawing.Point(6, 129);
+            this.radioButtonProcessor.Name = "radioButtonProcessor";
+            this.radioButtonProcessor.Size = new System.Drawing.Size(93, 21);
+            this.radioButtonProcessor.TabIndex = 7;
+            this.radioButtonProcessor.Text = "Processor";
+            this.radioButtonProcessor.UseVisualStyleBackColor = true;
             // 
-            // textBoxSearch
+            // radioButtonSSD
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(13, 17);
-            this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(191, 22);
-            this.textBoxSearch.TabIndex = 3;
+            this.radioButtonSSD.AutoSize = true;
+            this.radioButtonSSD.Location = new System.Drawing.Point(6, 102);
+            this.radioButtonSSD.Name = "radioButtonSSD";
+            this.radioButtonSSD.Size = new System.Drawing.Size(57, 21);
+            this.radioButtonSSD.TabIndex = 4;
+            this.radioButtonSSD.Text = "SSD";
+            this.radioButtonSSD.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonFlash
+            // 
+            this.radioButtonFlash.AutoSize = true;
+            this.radioButtonFlash.Location = new System.Drawing.Point(6, 75);
+            this.radioButtonFlash.Name = "radioButtonFlash";
+            this.radioButtonFlash.Size = new System.Drawing.Size(63, 21);
+            this.radioButtonFlash.TabIndex = 5;
+            this.radioButtonFlash.Text = "Flash";
+            this.radioButtonFlash.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonName
+            // 
+            this.radioButtonName.AutoSize = true;
+            this.radioButtonName.Checked = true;
+            this.radioButtonName.Location = new System.Drawing.Point(6, 21);
+            this.radioButtonName.Name = "radioButtonName";
+            this.radioButtonName.Size = new System.Drawing.Size(66, 21);
+            this.radioButtonName.TabIndex = 2;
+            this.radioButtonName.TabStop = true;
+            this.radioButtonName.Text = "Name";
+            this.radioButtonName.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -240,98 +189,145 @@ namespace ShopAdmin
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
-            // groupBox2
+            // textBoxAddPrice
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.groupBox2.Controls.Add(this.radioButtonPrice);
-            this.groupBox2.Controls.Add(this.buttonSort);
-            this.groupBox2.Controls.Add(this.radioButtonCompany);
-            this.groupBox2.Controls.Add(this.radioButtonProcessor);
-            this.groupBox2.Controls.Add(this.radioButtonSSD);
-            this.groupBox2.Controls.Add(this.radioButtonFlash);
-            this.groupBox2.Controls.Add(this.radioButtonName);
-            this.groupBox2.Location = new System.Drawing.Point(13, 49);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(245, 199);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
+            this.textBoxAddPrice.Location = new System.Drawing.Point(24, 274);
+            this.textBoxAddPrice.Name = "textBoxAddPrice";
+            this.textBoxAddPrice.Size = new System.Drawing.Size(146, 22);
+            this.textBoxAddPrice.TabIndex = 13;
             // 
-            // radioButtonName
+            // buttonAddNew
             // 
-            this.radioButtonName.AutoSize = true;
-            this.radioButtonName.Location = new System.Drawing.Point(6, 21);
-            this.radioButtonName.Name = "radioButtonName";
-            this.radioButtonName.Size = new System.Drawing.Size(66, 21);
-            this.radioButtonName.TabIndex = 2;
-            this.radioButtonName.TabStop = true;
-            this.radioButtonName.Text = "Name";
-            this.radioButtonName.UseVisualStyleBackColor = true;
+            this.buttonAddNew.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonAddNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAddNew.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buttonAddNew.Location = new System.Drawing.Point(126, 308);
+            this.buttonAddNew.Name = "buttonAddNew";
+            this.buttonAddNew.Size = new System.Drawing.Size(113, 42);
+            this.buttonAddNew.TabIndex = 0;
+            this.buttonAddNew.Text = "ADD New";
+            this.buttonAddNew.UseVisualStyleBackColor = false;
+            this.buttonAddNew.Click += new System.EventHandler(this.buttonAddNew_Click);
             // 
-            // radioButtonCompany
+            // textBoxAddFlash
             // 
-            this.radioButtonCompany.AutoSize = true;
-            this.radioButtonCompany.Location = new System.Drawing.Point(6, 48);
-            this.radioButtonCompany.Name = "radioButtonCompany";
-            this.radioButtonCompany.Size = new System.Drawing.Size(88, 21);
-            this.radioButtonCompany.TabIndex = 3;
-            this.radioButtonCompany.TabStop = true;
-            this.radioButtonCompany.Text = "Company";
-            this.radioButtonCompany.UseVisualStyleBackColor = true;
+            this.textBoxAddFlash.Location = new System.Drawing.Point(22, 139);
+            this.textBoxAddFlash.Name = "textBoxAddFlash";
+            this.textBoxAddFlash.Size = new System.Drawing.Size(148, 22);
+            this.textBoxAddFlash.TabIndex = 10;
             // 
-            // radioButtonFlash
+            // label3
             // 
-            this.radioButtonFlash.AutoSize = true;
-            this.radioButtonFlash.Location = new System.Drawing.Point(6, 75);
-            this.radioButtonFlash.Name = "radioButtonFlash";
-            this.radioButtonFlash.Size = new System.Drawing.Size(63, 21);
-            this.radioButtonFlash.TabIndex = 5;
-            this.radioButtonFlash.TabStop = true;
-            this.radioButtonFlash.Text = "Flash";
-            this.radioButtonFlash.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 119);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Flash (Gb)";
             // 
-            // radioButtonSSD
+            // textBoxAddProcessor
             // 
-            this.radioButtonSSD.AutoSize = true;
-            this.radioButtonSSD.Location = new System.Drawing.Point(6, 102);
-            this.radioButtonSSD.Name = "radioButtonSSD";
-            this.radioButtonSSD.Size = new System.Drawing.Size(57, 21);
-            this.radioButtonSSD.TabIndex = 4;
-            this.radioButtonSSD.TabStop = true;
-            this.radioButtonSSD.Text = "SSD";
-            this.radioButtonSSD.UseVisualStyleBackColor = true;
+            this.textBoxAddProcessor.Location = new System.Drawing.Point(22, 229);
+            this.textBoxAddProcessor.Name = "textBoxAddProcessor";
+            this.textBoxAddProcessor.Size = new System.Drawing.Size(148, 22);
+            this.textBoxAddProcessor.TabIndex = 12;
             // 
-            // radioButtonProcessor
+            // label4
             // 
-            this.radioButtonProcessor.AutoSize = true;
-            this.radioButtonProcessor.Location = new System.Drawing.Point(6, 129);
-            this.radioButtonProcessor.Name = "radioButtonProcessor";
-            this.radioButtonProcessor.Size = new System.Drawing.Size(93, 21);
-            this.radioButtonProcessor.TabIndex = 7;
-            this.radioButtonProcessor.TabStop = true;
-            this.radioButtonProcessor.Text = "Processor";
-            this.radioButtonProcessor.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 164);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "SSD (Gb)";
             // 
-            // radioButtonPrice
+            // label2
             // 
-            this.radioButtonPrice.AutoSize = true;
-            this.radioButtonPrice.Location = new System.Drawing.Point(6, 156);
-            this.radioButtonPrice.Name = "radioButtonPrice";
-            this.radioButtonPrice.Size = new System.Drawing.Size(61, 21);
-            this.radioButtonPrice.TabIndex = 6;
-            this.radioButtonPrice.TabStop = true;
-            this.radioButtonPrice.Text = "Price";
-            this.radioButtonPrice.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Company";
+            // 
+            // textBoxAddSSD
+            // 
+            this.textBoxAddSSD.Location = new System.Drawing.Point(22, 184);
+            this.textBoxAddSSD.Name = "textBoxAddSSD";
+            this.textBoxAddSSD.Size = new System.Drawing.Size(148, 22);
+            this.textBoxAddSSD.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 209);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(123, 17);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Processor (Cores)";
+            // 
+            // textBoxAddName
+            // 
+            this.textBoxAddName.Location = new System.Drawing.Point(22, 45);
+            this.textBoxAddName.Name = "textBoxAddName";
+            this.textBoxAddName.Size = new System.Drawing.Size(148, 22);
+            this.textBoxAddName.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Name";
+            // 
+            // textBoxAddCompany
+            // 
+            this.textBoxAddCompany.Location = new System.Drawing.Point(22, 94);
+            this.textBoxAddCompany.Name = "textBoxAddCompany";
+            this.textBoxAddCompany.Size = new System.Drawing.Size(148, 22);
+            this.textBoxAddCompany.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 254);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 17);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Price (₴)";
+            // 
+            // textBoxSearch
+            // 
+            this.textBoxSearch.Location = new System.Drawing.Point(13, 17);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(191, 22);
+            this.textBoxSearch.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Location = new System.Drawing.Point(321, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(949, 662);
+            this.panel2.TabIndex = 1;
             // 
             // buttonSearch
             // 
+            this.buttonSearch.BackColor = System.Drawing.SystemColors.Control;
             this.buttonSearch.BackgroundImage = global::ShopAdmin.Properties.Resources.search_48px;
             this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonSearch.Location = new System.Drawing.Point(231, 17);
+            this.buttonSearch.Location = new System.Drawing.Point(221, 12);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(27, 27);
+            this.buttonSearch.Size = new System.Drawing.Size(30, 30);
             this.buttonSearch.TabIndex = 4;
-            this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.UseVisualStyleBackColor = false;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // MainForm
@@ -343,7 +339,6 @@ namespace ShopAdmin
             this.ClientSize = new System.Drawing.Size(1282, 686);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
@@ -351,10 +346,10 @@ namespace ShopAdmin
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -97,8 +97,10 @@ namespace ShopAdmin.GUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.passwordBox.Location = new System.Drawing.Point(136, 71);
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '©';
             this.passwordBox.Size = new System.Drawing.Size(156, 22);
             this.passwordBox.TabIndex = 13;
+            this.passwordBox.UseSystemPasswordChar = true;
             // 
             // emailBox
             // 

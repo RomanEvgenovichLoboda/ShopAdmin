@@ -118,8 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="a40_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\a40_black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="admin_settings_male_500px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\admin_settings_male_500px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\f3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy_A52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy a52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Galaxy_M52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy m52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,17 +136,35 @@
   <data name="Galaxy_S21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy s21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gt_s7562zkaser_001_front_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gt-s7562zkaser_001_front_black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iPhone12pro_graphite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\iphone12pro_graphite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iPhone_13Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iphone 13pro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iPhone_XR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iphone xr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="note11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\note11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\n-95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pixel_6Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\pixel 6pro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Plus_9RT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\plus 9rt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redmi_note4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\redmi_note4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Redmi_Note_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\redmi note 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\search_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

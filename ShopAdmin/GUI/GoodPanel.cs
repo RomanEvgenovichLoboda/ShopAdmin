@@ -20,7 +20,16 @@ namespace ShopAdmin.GUI
                 ["iphone xr"] = new Bitmap(Properties.Resources.iPhone_XR),
                 ["plus 9rt"] = new Bitmap(Properties.Resources.Plus_9RT),
                 ["galaxy s21"] = new Bitmap(Properties.Resources.Galaxy_S21),
-                ["galaxy m52"] = new Bitmap(Properties.Resources.Galaxy_M52)
+                ["galaxy m52"] = new Bitmap(Properties.Resources.Galaxy_M52),
+                ["redmi note 4"] = new Bitmap(Properties.Resources.redmi_note4),
+                ["galaxy s 7562"] = new Bitmap(Properties.Resources.gt_s7562zkaser_001_front_black),
+                ["n 95"] = new Bitmap(Properties.Resources.n_95),
+                ["galaxy a 40"] = new Bitmap(Properties.Resources.a40_black),
+                ["iphone 12pro"] = new Bitmap(Properties.Resources.iPhone12pro_graphite),
+                ["redmi note 11"] = new Bitmap(Properties.Resources.note11),
+                ["redmi note 10"] = new Bitmap(Properties.Resources.Redmi_Note_10),
+                ["f 3"] = new Bitmap(Properties.Resources.f3),
+                ["galaxy a52"] = new Bitmap(Properties.Resources.Galaxy_A52)
               
 
             };

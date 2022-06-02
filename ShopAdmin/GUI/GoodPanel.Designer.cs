@@ -199,7 +199,7 @@ namespace ShopAdmin.GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.buttonRemove);
             this.Controls.Add(this.textBoxPrice);
