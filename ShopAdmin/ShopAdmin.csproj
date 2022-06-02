@@ -124,6 +124,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\admin_settings_male_500px.png" />
     <Content Include="Resources\iPhone 13Pro.png" />
     <Content Include="Resources\Pixel 6Pro.png" />
     <Content Include="Resources\iPhone XR.png" />

@@ -63,6 +63,16 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap admin_settings_male_500px {
+            get {
+                object obj = ResourceManager.GetObject("admin_settings_male_500px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Galaxy_M52 {
             get {
                 object obj = ResourceManager.GetObject("Galaxy_M52", resourceCulture);

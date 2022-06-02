@@ -19,27 +19,28 @@ namespace ShopAdmin.GUI
         {
             if (emailBox.Text != "" && passwordBox.Text != "")
             {
-                if  (!Regex.IsMatch(emailBox.Text, pattern, RegexOptions.IgnoreCase)) { MessageBox.Show("Wrong email format"); }
+                if  (!Regex.IsMatch(emailBox.Text, pattern, RegexOptions.IgnoreCase)) { MessageBox.Show("Wrong email format", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                 else
                 {
                     reg.signIn(emailBox.Text, passwordBox.Text);
-                    this.Close();
+                    if (reg.sidn_in) { this.Close(); }
+                    else { MessageBox.Show("Что-то не так, проверьте введённые данные !", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                 }
             }
-            else { MessageBox.Show("Empty Line =("); }
+            else { MessageBox.Show("Empty Line =(", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
         }
         private void SignUpButton_Click(object sender, EventArgs e)
         {
             if (emailBox.Text != "" && passwordBox.Text != "") 
             {
-                if (!Regex.IsMatch(emailBox.Text, pattern, RegexOptions.IgnoreCase)) { MessageBox.Show("Wrong email format"); }
+                if (!Regex.IsMatch(emailBox.Text, pattern, RegexOptions.IgnoreCase)) { MessageBox.Show("Wrong email format", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                 else
                 {
                     reg.Regestration(emailBox.Text, passwordBox.Text);
-                    MessageBox.Show("Registration Is OK =)");
+                    MessageBox.Show("Registration Is OK =)", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-            else { MessageBox.Show("Empty Line =("); }
+            else { MessageBox.Show("Empty Line =(", " ErroR !!!", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
         }
     }
 }

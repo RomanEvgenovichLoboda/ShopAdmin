@@ -63,7 +63,6 @@ namespace ShopAdmin.GUI
             // 
             // textBoxName
             // 
-            this.textBoxName.Enabled = false;
             this.textBoxName.Location = new System.Drawing.Point(255, 27);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(130, 22);
@@ -165,7 +164,6 @@ namespace ShopAdmin.GUI
             // 
             // textBoxCompany
             // 
-            this.textBoxCompany.Enabled = false;
             this.textBoxCompany.Location = new System.Drawing.Point(254, 62);
             this.textBoxCompany.Name = "textBoxCompany";
             this.textBoxCompany.Size = new System.Drawing.Size(130, 22);

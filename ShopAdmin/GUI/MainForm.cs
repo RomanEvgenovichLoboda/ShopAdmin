@@ -1,6 +1,7 @@
 ﻿using ShopAdmin.GUI;
 using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ShopAdmin
@@ -75,7 +76,33 @@ namespace ShopAdmin
             RegForm regForm = new RegForm();
             regForm.ShowDialog();
             if (!sign) { this.Close(); }
-            else { MessageBox.Show("Autorisated =)"); }
+            else { MessageBox.Show("Autorisated is OK =)", "Autorisated !", MessageBoxButtons.OK, MessageBoxIcon.Information); }
+        }
+
+        private void buttonSort_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            int x = 10, y = 10;
+            using (Model_Db_Other model_Db = new Model_Db_Other())
+            {
+                IOrderedQueryable<Mobile> order = null ;
+                if (radioButtonName.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.Name); }
+                else if (radioButtonCompany.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.Company); }
+                else if (radioButtonFlash.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.Flash); }
+                else if (radioButtonSSD.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.SSD); }
+                else if (radioButtonProcessor.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.Processor); }
+                else if(radioButtonPrice.Checked) { order = model_Db.Mobiles.OrderBy((z) => z.Price); }
+                foreach (var item in order)
+                {
+                    panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
+                    x += 320;
+                    if (x / 320 >= 4)
+                    {
+                        y += 300;
+                        x = 10;
+                    }
+                }
+            }
         }
     }
 }

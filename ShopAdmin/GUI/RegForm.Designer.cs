@@ -29,6 +29,7 @@ namespace ShopAdmin.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegForm));
             this.SignUpButton = new System.Windows.Forms.Button();
             this.SignInButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -121,8 +122,10 @@ namespace ShopAdmin.GUI
             this.Controls.Add(this.label1);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.emailBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegForm";
-            this.Text = "RegForm";
+            this.Text = "Registration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
