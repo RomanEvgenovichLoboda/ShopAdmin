@@ -124,11 +124,16 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\11 T.png" />
     <Content Include="Resources\a40_black.jpg" />
     <Content Include="Resources\admin_settings_male_500px.png" />
     <Content Include="Resources\f3.png" />
+    <Content Include="Resources\Galaxy A13.png" />
+    <Content Include="Resources\Galaxy A32.png" />
+    <Content Include="Resources\Galaxy A33.png" />
     <Content Include="Resources\Galaxy A52.png" />
     <Content Include="Resources\gt-s7562zkaser_001_front_black.jpg" />
+    <Content Include="Resources\iPhone 11.png" />
     <Content Include="Resources\iPhone 13Pro.png" />
     <Content Include="Resources\iPhone12pro_graphite.png" />
     <Content Include="Resources\n-95.jpg" />

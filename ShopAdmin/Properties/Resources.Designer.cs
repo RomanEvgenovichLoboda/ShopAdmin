@@ -63,6 +63,16 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11_T {
+            get {
+                object obj = ResourceManager.GetObject("_11_T", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a40_black {
             get {
                 object obj = ResourceManager.GetObject("a40_black", resourceCulture);
@@ -86,6 +96,36 @@ namespace ShopAdmin.Properties {
         internal static System.Drawing.Bitmap f3 {
             get {
                 object obj = ResourceManager.GetObject("f3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_A13 {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_A13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_A32 {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_A32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_A33 {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_A33", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +166,16 @@ namespace ShopAdmin.Properties {
         internal static System.Drawing.Bitmap gt_s7562zkaser_001_front_black {
             get {
                 object obj = ResourceManager.GetObject("gt_s7562zkaser_001_front_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iPhone_11 {
+            get {
+                object obj = ResourceManager.GetObject("iPhone_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

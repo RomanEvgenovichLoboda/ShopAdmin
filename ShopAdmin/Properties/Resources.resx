@@ -127,6 +127,15 @@
   <data name="f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\f3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Galaxy_A13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy a13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy_A32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy a32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy_A33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy a33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galaxy_A52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy a52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +150,9 @@
   </data>
   <data name="iPhone12pro_graphite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iphone12pro_graphite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iPhone_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\iphone 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iPhone_13Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iphone 13pro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,5 +183,8 @@
   </data>
   <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\11 t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
