@@ -73,6 +73,16 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12X {
+            get {
+                object obj = ResourceManager.GetObject("_12X", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a40_black {
             get {
                 object obj = ResourceManager.GetObject("a40_black", resourceCulture);
@@ -93,9 +103,29 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BLADE_V30 {
+            get {
+                object obj = ResourceManager.GetObject("BLADE_V30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f3 {
             get {
                 object obj = ResourceManager.GetObject("f3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap G60 {
+            get {
+                object obj = ResourceManager.GetObject("G60", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +173,16 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_Fold3 {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_Fold3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Galaxy_M52 {
             get {
                 object obj = ResourceManager.GetObject("Galaxy_M52", resourceCulture);
@@ -153,9 +193,29 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_S20_FE {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_S20_FE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Galaxy_S21 {
             get {
                 object obj = ResourceManager.GetObject("Galaxy_S21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Galaxy_S22 {
+            get {
+                object obj = ResourceManager.GetObject("Galaxy_S22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +313,16 @@ namespace ShopAdmin.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Redmi_9C {
+            get {
+                object obj = ResourceManager.GetObject("Redmi_9C", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Redmi_Note_10 {
             get {
                 object obj = ResourceManager.GetObject("Redmi_Note_10", resourceCulture);
@@ -286,6 +356,26 @@ namespace ShopAdmin.Properties {
         internal static System.Drawing.Bitmap test {
             get {
                 object obj = ResourceManager.GetObject("test", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap V21E {
+            get {
+                object obj = ResourceManager.GetObject("V21E", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X4_Pro {
+            get {
+                object obj = ResourceManager.GetObject("X4_Pro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

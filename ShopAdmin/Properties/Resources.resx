@@ -124,8 +124,14 @@
   <data name="admin_settings_male_500px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\admin_settings_male_500px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BLADE_V30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blade v30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\f3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\g60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Galaxy_A13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy a13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +145,20 @@
   <data name="Galaxy_A52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy a52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Galaxy_Fold3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy fold3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galaxy_M52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy m52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Galaxy_S20_FE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy s20 fe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galaxy_S21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\galaxy s21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy_S22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\galaxy s22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gt_s7562zkaser_001_front_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\gt-s7562zkaser_001_front_black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,6 +187,9 @@
   <data name="Plus_9RT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\plus 9rt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Redmi_9C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\redmi 9c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="redmi_note4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\redmi_note4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,7 +202,16 @@
   <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="V21E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\v21e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X4_Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\x4 pro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_11_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\11 t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\12x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
