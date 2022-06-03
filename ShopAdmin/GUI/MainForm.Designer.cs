@@ -54,8 +54,11 @@ namespace ShopAdmin
             this.textBoxAddCompany = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.buttonSearch = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.labelCount = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -65,15 +68,19 @@ namespace ShopAdmin
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.labelCount);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.textBoxSearch);
             this.panel1.Controls.Add(this.buttonSearch);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(279, 662);
+            this.panel1.Size = new System.Drawing.Size(286, 481);
             this.panel1.TabIndex = 0;
             // 
             // groupBox2
@@ -86,7 +93,7 @@ namespace ShopAdmin
             this.groupBox2.Controls.Add(this.radioButtonSSD);
             this.groupBox2.Controls.Add(this.radioButtonFlash);
             this.groupBox2.Controls.Add(this.radioButtonName);
-            this.groupBox2.Location = new System.Drawing.Point(13, 49);
+            this.groupBox2.Location = new System.Drawing.Point(13, 168);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(245, 199);
             this.groupBox2.TabIndex = 5;
@@ -183,7 +190,7 @@ namespace ShopAdmin
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBoxAddCompany);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(13, 269);
+            this.groupBox1.Location = new System.Drawing.Point(13, 387);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(245, 364);
             this.groupBox1.TabIndex = 6;
@@ -300,10 +307,22 @@ namespace ShopAdmin
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(13, 17);
+            this.textBoxSearch.Location = new System.Drawing.Point(13, 125);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(191, 22);
             this.textBoxSearch.TabIndex = 3;
+            // 
+            // buttonSearch
+            // 
+            this.buttonSearch.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonSearch.BackgroundImage = global::ShopAdmin.Properties.Resources.search_48px;
+            this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonSearch.Location = new System.Drawing.Point(222, 121);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(30, 30);
+            this.buttonSearch.TabIndex = 4;
+            this.buttonSearch.UseVisualStyleBackColor = false;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // panel2
             // 
@@ -315,20 +334,39 @@ namespace ShopAdmin
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Location = new System.Drawing.Point(321, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(949, 662);
+            this.panel2.Size = new System.Drawing.Size(830, 481);
             this.panel2.TabIndex = 1;
             // 
-            // buttonSearch
+            // labelCount
             // 
-            this.buttonSearch.BackColor = System.Drawing.SystemColors.Control;
-            this.buttonSearch.BackgroundImage = global::ShopAdmin.Properties.Resources.search_48px;
-            this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonSearch.Location = new System.Drawing.Point(221, 12);
-            this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(30, 30);
-            this.buttonSearch.TabIndex = 4;
-            this.buttonSearch.UseVisualStyleBackColor = false;
-            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
+            this.labelCount.AutoSize = true;
+            this.labelCount.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCount.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelCount.Location = new System.Drawing.Point(203, 773);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(20, 22);
+            this.labelCount.TabIndex = 7;
+            this.labelCount.Text = "0";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label7.Location = new System.Drawing.Point(15, 773);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(159, 22);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Count of Guuds :";
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::ShopAdmin.Properties.Resources.admin_settings_male_500px;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(44, -2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(179, 121);
+            this.panel3.TabIndex = 9;
             // 
             // MainForm
             // 
@@ -336,7 +374,7 @@ namespace ShopAdmin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1282, 686);
+            this.ClientSize = new System.Drawing.Size(1163, 505);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.HelpButton = true;
@@ -382,6 +420,9 @@ namespace ShopAdmin
         private System.Windows.Forms.RadioButton radioButtonPrice;
         private System.Windows.Forms.RadioButton radioButtonFlash;
         private System.Windows.Forms.RadioButton radioButtonSSD;
+        private System.Windows.Forms.Label labelCount;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

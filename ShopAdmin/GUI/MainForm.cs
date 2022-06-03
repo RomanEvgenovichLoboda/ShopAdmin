@@ -9,6 +9,7 @@ namespace ShopAdmin
     public partial class MainForm : Form
     {
         public bool sign;
+        int count;
         public MainForm()
         {
             InitializeComponent();
@@ -18,6 +19,7 @@ namespace ShopAdmin
         {
             using (Model_Db_Other model_Db = new Model_Db_Other())
             {
+                count = 0;
                 panel2.Controls.Clear();
                 int x = 10, y = 10;
                 foreach (var item in model_Db.Mobiles)
@@ -26,11 +28,13 @@ namespace ShopAdmin
                     { 
                         panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
                         x += 320;
+                        count++;
                     }
                     else if (str.ToLower() == item.Company.ToLower() || str.ToLower() == item.Name.ToLower()) 
                     { 
                         panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
                         x += 320;
+                        count++;
                     }
                     if (x / 320 >= 4)
                     {
@@ -38,6 +42,7 @@ namespace ShopAdmin
                         x = 10;
                     }
                 }
+                labelCount.Text = count.ToString();
             }
         }
         private void buttonSearch_Click(object sender, EventArgs e) { Show_Goods(textBoxSearch.Text); }
@@ -96,6 +101,7 @@ namespace ShopAdmin
                 {
                     panel2.Controls.Add(new GoodPanel(item.Id, item.Name, item.Company, item.Flash, item.SSD, item.Processor, item.Price) { Location = new Point(x, y) });
                     x += 320;
+                    count++;
                     if (x / 320 >= 4)
                     {
                         y += 300;
