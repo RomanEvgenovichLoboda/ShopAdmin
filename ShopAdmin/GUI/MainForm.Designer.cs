@@ -31,6 +31,9 @@ namespace ShopAdmin
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.labelCount = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButtonPrice = new System.Windows.Forms.RadioButton();
             this.buttonSort = new System.Windows.Forms.Button();
@@ -56,9 +59,6 @@ namespace ShopAdmin
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.labelCount = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -82,6 +82,37 @@ namespace ShopAdmin
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(286, 481);
             this.panel1.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::ShopAdmin.Properties.Resources.admin_settings_male_500px;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(44, -2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(179, 121);
+            this.panel3.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label7.Location = new System.Drawing.Point(15, 773);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(157, 22);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Count of Goods :";
+            // 
+            // labelCount
+            // 
+            this.labelCount.AutoSize = true;
+            this.labelCount.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCount.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelCount.Location = new System.Drawing.Point(203, 773);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(20, 22);
+            this.labelCount.TabIndex = 7;
+            this.labelCount.Text = "0";
             // 
             // groupBox2
             // 
@@ -336,37 +367,6 @@ namespace ShopAdmin
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(830, 481);
             this.panel2.TabIndex = 1;
-            // 
-            // labelCount
-            // 
-            this.labelCount.AutoSize = true;
-            this.labelCount.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCount.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelCount.Location = new System.Drawing.Point(203, 773);
-            this.labelCount.Name = "labelCount";
-            this.labelCount.Size = new System.Drawing.Size(20, 22);
-            this.labelCount.TabIndex = 7;
-            this.labelCount.Text = "0";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label7.Location = new System.Drawing.Point(15, 773);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(159, 22);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Count of Guuds :";
-            // 
-            // panel3
-            // 
-            this.panel3.BackgroundImage = global::ShopAdmin.Properties.Resources.admin_settings_male_500px;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(44, -2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(179, 121);
-            this.panel3.TabIndex = 9;
             // 
             // MainForm
             // 

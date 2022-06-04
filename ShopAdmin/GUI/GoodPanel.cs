@@ -10,7 +10,6 @@ namespace ShopAdmin.GUI
         int id;
         public GoodPanel(int _id, string _name, string _company, int _flash, int _SSD, int _processor, double _price)
         {
-
             InitializeComponent();
             id = _id;
             textBoxName.Text = _name;
@@ -24,32 +23,47 @@ namespace ShopAdmin.GUI
         } 
         private void buttonRemove_Click(object sender, EventArgs e)
         {
-            using(Model_Db_Other model_Db = new Model_Db_Other())
+            try
             {
-                model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
-                model_Db.SaveChanges(); 
+                using (Model_Db_Other model_Db = new Model_Db_Other())
+                {
+                    model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
+                    model_Db.SaveChanges();
+                }
+                Program.mainForm.Show_Goods();
             }
-            Program.mainForm.Show_Goods();
+            catch 
+            {
+                MessageBox.Show("Error!!!");
+                Program.mainForm.Show_Goods();
+
+            }
+
         }
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            using (Model_Db_Other model_Db = new Model_Db_Other())
+            try
             {
-                Mobile mobile = new Mobile()
+                using (Model_Db_Other model_Db = new Model_Db_Other())
                 {
-                    Id = this.id,
-                    Name = textBoxName.Text,
-                    Company = textBoxCompany.Text,
-                    Flash = Convert.ToInt32(textBoxFlash.Text),
-                    SSD = Convert.ToInt32(textBoxSSD.Text),
-                    Processor = Convert.ToInt32(textBoxProessor.Text),
-                    Price = Convert.ToDouble(textBoxPrice.Text)
-                };
-                model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
-                model_Db.Mobiles.Add(mobile);
-                model_Db.SaveChanges();
+                    Mobile mobile = new Mobile()
+                    {
+                        Id = this.id,
+                        Name = textBoxName.Text,
+                        Company = textBoxCompany.Text,
+                        Flash = Convert.ToInt32(textBoxFlash.Text),
+                        SSD = Convert.ToInt32(textBoxSSD.Text),
+                        Processor = Convert.ToInt32(textBoxProessor.Text),
+                        Price = Convert.ToDouble(textBoxPrice.Text)
+                    };
+                    model_Db.Mobiles.Remove(model_Db.Mobiles.Find(id));
+                    model_Db.Mobiles.Add(mobile);
+                    model_Db.SaveChanges();
+                }
+                Program.mainForm.Show_Goods();
             }
-            Program.mainForm.Show_Goods();
+            catch { MessageBox.Show("Error!!!"); }
+           
         }
     }
 }
